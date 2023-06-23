@@ -2,10 +2,9 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import photo from '@/public/cover.png';
-import photo1 from '@/public/cardphoto.png';
 import map1 from '@/public/map1.png';
 import { Rating } from 'react-simple-star-rating';
-import commetnphoto from '@/public/comment-Photo.png';
+import commetnphoto from '@/public/commentphoto.png';
 function HotelScreen() {
   const [selectedPhoto, setSelectedPhoto] = useState(null);
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../public/logo.png';
-import redman from '../public/redman.png';
+import logo from '@/public/logo.png';
+import redman from '@/public/redman.png';
 import Image from 'next/image';
 import { AiOutlineCompass } from 'react-icons/ai';
 import { CiHeart, CiSearch } from 'react-icons/ci';

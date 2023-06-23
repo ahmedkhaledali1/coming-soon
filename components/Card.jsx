@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import { HiLocationMarker } from 'react-icons/hi';
 import { Rating } from 'react-simple-star-rating';
-import photo from '@/public/photoes/cardphoto.png';
+import photo from '@/public/cardphoto.png';
 function Card({ data }) {
   const [ratingValue, setRatingValue] = useState(data.rating);
 

@@ -4,7 +4,7 @@ import React from 'react';
 
 const layout = ({ children }) => {
   return (
-    <main className="flex flex-col  max-w-full">
+    <main className="flex flex-col max-w-full">
       <Header />
       {children}
       <Footer />
