@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import data from '@/components/data';
-import Card from '@/components/Card';
+import Card from '@/components/card';
 function FirstPage() {
   const [menuVisible, setMenuVisible] = useState(false);
 
