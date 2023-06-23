@@ -1,8 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import data from '@/components/data';
-import Card from '@/components/card';
-// import RiContactsBookUploadFill from 'react-icons/ri';
+import Card from '@/components/Card';
 function FirstPage() {
   const [menuVisible, setMenuVisible] = useState(false);
 
